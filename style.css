@@ -1,0 +1,95 @@
+.pig{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    width: 400px;
+    height: 410px;
+    border-radius: 50%;
+    background-color: pink;
+    margin-top: -106px;
+    border-style: solid;
+    box-shadow:5px 5px 5px 5px black;
+}
+.ears{
+    display: flex;
+    column-gap: 45px;
+}
+.ears_in{
+    display: flex;
+    column-gap: 105px;
+    margin-top: -135px;
+}
+.ear{
+    box-shadow:5px 5px 5px 5px black;
+    height: 158px;
+    width: 143px;
+    background-color: pink;
+    border-style: solid;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.ear_in{
+    height: 128px;
+    width: 93px;
+    background-color: rgb(206, 115, 130);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.beyes{
+    display: flex;
+    flex-direction: row;
+    column-gap: 139px;
+    margin-top: -54px;
+
+}
+.bl{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.weyes{
+    display: flex;
+    flex-direction: row;
+    column-gap: 97px;
+    margin-top: -300px;
+}
+.whi{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.mouth{
+    background-color: rgb(255, 3, 3);
+    width: 141px;
+    height: 79px;
+    border-radius: 50px;
+    margin-top: -99px;
+    border-style: solid;
+}
+.cir{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    margin-top: -60px;
+}
+.cirs{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.mouth_d{
+    background-color:  rgb(206, 115, 130);
+    margin-top: 130px;
+    width:100px;
+    height: 40px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
